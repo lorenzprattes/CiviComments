@@ -1,0 +1,6 @@
+[submodule "remark42-civiranked"]
+	path = remark42-civiranked
+	url = git@github.com:lorenzprattes/remark42-civiranked.git
+[submodule "CiviRank"]
+	path = CiviRank
+	url = https://github.com/lorenzprattes/CiviRank

@@ -1,0 +1,33 @@
+include:
+  - path: 
+    - CiviRank/docker-compose-dev.yml
+  - path:
+    - remark42-civiranked/compose-dev-frontend.yml
+# services:
+#   civirank:
+#     extends:
+#       file: civirank/docker-compose-dev.yml
+#       service: civirank
+#       env_file: "civirank.env"
+#services:
+#   civirank:
+#     build:
+#       context: civirank
+
+# remark-42-frontend:
+#   image: umputun/remark42:latest
+#   build:
+#     context: remark42
+#     args:
+#       - SKIP_BACKEND_TEST=true
+#       - SKIP_FRONTEND_BUILD=true
+#       - SKIP_FRONTEND_BUILD=true
+#       - SKIP_FRONTEND_TEST=true
+#   develop:
+#     watch:
+#       - action: sync
+#         path: remark42/frontend/
+#         target: remark42/frontend/
+#         ignore:
+#           - remark42/node_modules/
+#   command: ["cd", "frontend", "&&", "pnpm", "dev:app"]

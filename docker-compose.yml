@@ -1,0 +1,5 @@
+include:
+  - path: 
+    - CiviRank/docker-compose.yml
+  - path: 
+    - remark42-civiranked/docker-compose.yml
